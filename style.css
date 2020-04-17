@@ -7,20 +7,33 @@ html
 	font-size: 13px;
 }
 
+
+
 body/*ok*/
 {
 	width: 21cm;
 
 }
 
+section/*ok*/
+{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 1em;
+}
+
 #gauche /*ok*/
 {
 	width: 25%;
+	background-color: #43A047;
 }
 
-#droite/*ok*/
+article/*ok*/
 {
-	width: 75%;
+	width: 100%;
+	height: 1096.06px;
+	background-color: #43A047;
 }
 
 #photo /*ok*/
@@ -38,60 +51,6 @@ body/*ok*/
     margin-top: 20px;
 }
 
-#head/*ok*/
-{
-	padding: 4em; 
-}
-
-.nat/*ok*/
-{
-	color: #43A047;
-}
-
-header > h3
-{
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-section/*ok*/
-{
-	margin: auto;
-	display: flex;
-	flex-direction: row;
-	padding: 1em;
-}
-
-.contact > p/*ok*/
-{
-	padding: 25px;
-	padding-top: 10px;
-	padding-bottom: 1px;
-}
-
-.propos
-{
-	text-align: justify;
-}
-
-article > p/*ok*/
-{
-	padding: 25px;
-}
-
-
-
-.left
-{
-	align-self: flex-end;
-}
-
-
-#gauche/*ok*/
-{
-	background-color: #43A047;
-}
-
 .left/*ok*/
 {
 	font-size: 1.2em;
@@ -102,7 +61,30 @@ article > p/*ok*/
 	flex-wrap: wrap;
 }
 
-.fas/*ok*/
+.contact > p/*ok*/
+{
+	padding: 25px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+article > p/*ok*/
+{
+	padding: 25px;
+}
+
+.propos
+{
+	text-align: justify;
+}
+
+#loisir/*en cours*/
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#loisir .fas/*ok*/
 {
 	width: 20px;
 	height: 20px;
@@ -114,38 +96,32 @@ article > p/*ok*/
 	color: #212121;
 }
 
+#head/*ok*/
+{
+	padding: 4em; 
+}
+
+header > h3
+{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.nat/*ok*/
+{
+	color: #43A047;
+}
+
+.up/*en cours*/	
+{
+	padding-left: 30px;
+}
+
 #trait_dessus/*en cours*/
 {
 	border-top: 2px solid #43A047;
 
 	width : 600px;
-	
-}
-
-#loisir/*en cours*/
-{
-	justify-content: space-around;
-}
-
-article/*ok*/
-{
-	width: 100%;
-	height: 1096.06px;
-	background-color: #43A047;
-}
-
-#end/*ok*/
-{
-	display: flex;
-	justify-content: space-between;
-	margin-left: 40px;
-	margin-right: 40px;
-}
-
-.banque/*ok*/
-{
-	width: 700px;
-	padding-right: 50px;
 }
 
 .puce1/* toutes les puces en cours*/
@@ -218,11 +194,44 @@ article/*ok*/
 	grid-row-end: 1;
 }
 
-.up/*en cours*/	
+#end/*ok*/
 {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
+
+.banque/*ok*/
+{
+	width: 700px;
+	padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
