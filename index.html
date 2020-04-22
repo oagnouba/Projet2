@@ -6,11 +6,13 @@
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script><!--indique le lien vers le site pour les icônes-->
 	<link rel="stylesheet" href="style.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Caveat&family=Comic+Neue:wght@300&family=Satisfy&display=swap" rel="stylesheet"><!--link pour la police-->
+	<link rel="stylesheet" media="screen and (max-width: 1280px)" href="media.css" /><!--link responsive-->
 	<title>CV</title>
 </head>
 <body>
+	<div class="page">
 	<section>
-		<div class="colon" id="gauche"> 
+		<div id="gauche"> 
 			<article>
 				<div id="photo"><img src="image/naruto_mini.png" alt="photo"></div>
 				<h1 class="left"> Contact</h1>
@@ -18,9 +20,9 @@
 					<p>Adresse:</br> 
 					Village caché de la feuille</br> 
 					KONOHA</p>
-					<p>Téléphone:</br> 
+					<p>Téléphone:</br>
 					06 65 24 75 12</p>
-					<p>Email:</br> 
+					<p>Email:</br>
 					unaruto@konoha.net</p>
 					<p>Site web:</br>
 					www.konoha.net</p>
@@ -28,7 +30,10 @@
 					@nuzumaki</p>
 				</span>
 				<h1 class="left"> À propos de moi</h1>
-					<p>La motivation, l’autonomie, la rigueur, la détermination, le sens du travail bien fait et une soif d’apprendre sont les qualités qui me définissent			</p>
+				<div class="apropo">
+					<p>La motivation, l’autonomie, la rigueur, la détermination, le sens du travail bien fait et une soif d’apprendre sont les qualités qui me définissent		
+					</p>
+				</div>
 				<h1 class="left"> Loisirs</h1>
 				<div id="loisir">
 					<i class="fas fa-running"></i>
@@ -37,19 +42,19 @@
 				</div>
 			</article>	
 		</div>
-		<div class="colon" id="droite">
+		<div id="droite">
 		<aside>
 			<header> 
 				<div id="head"><h3><span class="nat">Naturo</span> UZUMAKI</h3>
-					<h1><p class="poste"> Développeur web freelance</p></h1>
-					<h1><i class="fas fa-graduation-cap"></i><span class="up">Formation</span></h1>
-					<div id="trait_dessus"></div>
+					<h1><p class="poste"> <span class="dev">Dévelo</span>ppeur web freelance</p></h1>
+					<h1><i class="fas fa-graduation-cap"></i><span class="up">Formations</span></h1>
+					<div id="trait_dessous"></div>
 					<ul> 
 						<div class="puce">
 							<li><div class="puce1">2020 - 2021</br>Orléans
 								<span class="puce11"><h4>OpenClassrooms ( en cours)</h4>
 								<p>Développeur Web Junior</p>
-								<p>Connaissance acquise durant cette formation: Maîtrise de l'utilisation des outils HTML5, CSS3, JavaScript; conception d'API et de réseau social d'entreprise.</p>
+								<p>Connaissance acquise durant cette formation: Maîtrise de l'utilisation des outils HTML5, CSS3, JavaScript; conception d'API et de réseau social d'entreprise. </p>
 								</span>
 								</div>
 							</li>
@@ -63,7 +68,7 @@
 						</div>
 					</ul> 
 					<h1 class="middle"><i class="fas fa-briefcase"></i></i><span class="up"> Expériences professionelles</span></h1>
-					<div id="trait_dessus"></div>
+					<div id="trait_dessous"></div>
 					<ul> 
 						
 						<div class="expp">
@@ -91,7 +96,7 @@
 						</div>
 					</ul>
 						<h1 class="fin"><i class="fas fa-pencil-alt"></i></i><span class="up"> Recommandations</span></h1>
-						<div id="trait_dessus"></div>
+						<div id="trait_dessous"></div>
 						<div id="end">
 							<p class="banque">Nicolas DUBOIS</br>
 							Directeur LCL</br>
@@ -100,7 +105,7 @@
 
 							<p class="ong">Claire DUPONT</br>
 							Responsable Eau-Vive</br>
-							Téléphone: 03 36 25 84 79</b>
+							Téléphone: 03 36 25 84 79</b></br>
 							Email:dupontcl@eauvive.org</p>
 						</div>
 				</div>
@@ -108,5 +113,6 @@
 		</aside>
 		</div>	
 	</section>
+	</div>
 </body>
 </html>

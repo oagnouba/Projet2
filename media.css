@@ -1,0 +1,87 @@
+@media all and (max-width: 1280px) 
+{
+	section:/*ok*/
+		{
+			margin: 0;
+			padding: 0;
+			width: 150px;
+			
+		}
+
+
+	#droite/*ok*/
+    	{
+    		text-align: justify-all;
+    	}
+
+	#photo
+		{
+			left: 1500px;
+		}
+
+    #gauche
+    	{
+    		width: 300px;
+
+    	}
+
+    h1 #trait_dessous
+		{
+			width: 50px;
+
+		}
+
+	.puce1, .puce2, .expp1, .expp2, .expp3, #end
+		{
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+		}
+
+	#end
+		{
+			flex-direction: column;
+
+		}
+
+		
+
+	
+
+	#photo/*ok*/
+		{	
+			 left: 140px; 
+		}
+
+
+
+
+
+    section/*ok*/
+    	{
+    		
+    		flex-direction: column-reverse;
+    	}
+
+
+		
+    article
+    	{
+    		flex-wrap: nowrap;
+    	}
+
+    	
+
+	
+
+		
+
+	
+
+
+
+
+
+} 
+
+

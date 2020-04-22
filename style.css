@@ -1,4 +1,5 @@
-html
+
+html/*ok*/
 {
 	font-family: 'Caveat', cursive;
 	font-family: 'Comic Neue', cursive;
@@ -7,12 +8,11 @@ html
 	font-size: 13px;
 }
 
-
-
-body/*ok*/
+.page
 {
-	width: 21cm;
-
+	width: 210mm;
+	height: 290mm;
+	margin: auto;
 }
 
 section/*ok*/
@@ -25,22 +25,16 @@ section/*ok*/
 
 #gauche /*ok*/
 {
-	width: 25%;
+	width: 30%;	
 	background-color: #43A047;
-}
-
-article/*ok*/
-{
-	width: 100%;
-	height: 1096.06px;
-	background-color: #43A047;
+	
 }
 
 #photo /*ok*/
 {
 	position: relative;
 	top: 10px;
-	left: 40px;
+	left: 65px;
     overflow:hidden; /*gérer dépassement d'un élément dans un bloc*/
     -webkit-border-radius:50px;/*safari*/
     -moz-border-radius:50px; /*FF*/
@@ -61,50 +55,78 @@ article/*ok*/
 	flex-wrap: wrap;
 }
 
-.contact > p/*ok*/
+.contact p/*ok*/
 {
-	padding: 25px;
-	padding-top: 10px;
-	padding-bottom: 1px;
+	margin-top: 1px;
+	padding: 20px;
+	height: 10px;
+	
 }
 
-article > p/*ok*/
-{
-	padding: 25px;
-}
+.apropo/*ok*/
+	{
+		height: 500px
+	}
 
-.propos
+.apropo p/*ok*/
 {
+	padding: 20px;
+	height: 10px;
 	text-align: justify;
 }
+
 
 #loisir/*en cours*/
 {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 2%;
+
 }
 
 #loisir .fas/*ok*/
 {
+	font-size: 20px;
 	width: 20px;
 	height: 20px;
 	padding: 10px;
 	border-radius: 50%;
 	border: 1px solid black;
-	border-bottom: 0px;
 	border-color: #212121;
 	color: #212121;
 }
 
-#head/*ok*/
+#droite/*ok*/
 {
-	padding: 4em; 
+	width: 70%;
 }
 
-header > h3
+#head/*ok*/
 {
+	padding: 20px; 
+}
+
+.dev
+{
+	border-bottom: 2px solid;
+	border-color: #43A047;
+	padding-bottom: 1px;
+	
+}
+
+h3
+{
+	font-size: 25px;
 	text-transform: uppercase;
-	font-size: 10px;
+}
+
+.poste
+{
+	font-size: 15px;
+	padding-top: 1em;
 }
 
 .nat/*ok*/
@@ -117,96 +139,78 @@ header > h3
 	padding-left: 30px;
 }
 
-#trait_dessus/*en cours*/
+header h1 .fas/*ok*/
+{
+	color: #43A047;
+	font-size: 20px;
+	padding-left: 2px;
+}
+
+header h1 p
+{
+	text-align: justify;
+}
+
+#trait_dessous/*en cours*/
 {
 	border-top: 2px solid #43A047;
-
-	width : 600px;
+	
 }
 
-.puce1/* toutes les puces en cours*/
+ul li:before;
 {
-	display: grid;
-	grid-template-columns: [ext-gauche] 1fr [center] 2fr;
+	text-decoration-color: #43A047;
 }
+
 
 .puce1
 {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	
+	
 }
 
 .puce2
 {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	grid-auto-rows: minimax(25px, auto); 
 }
 
-.puce2
-{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
-}
-
-.expp1
+.expp1, .expp2, .expp3
 {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	grid-auto-rows: minimax(25px, auto);
 }
 
-.expp1
-{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
-}
 
-.expp2
-{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
-
-.expp2
-{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
-}
-
-.expp3
-{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-}
-
-.expp3
-{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
-}
 
 #end/*ok*/
 {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 40px;
-	margin-right: 40px;
 }
 
 .banque/*ok*/
 {
-	width: 700px;
-	padding-right: 50px;
+	padding-right: 100px;
 }
+
+.ong/*ok*/
+{
+	padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
