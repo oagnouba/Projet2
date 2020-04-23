@@ -163,28 +163,27 @@ ul li:before;
 }
 
 
-.puce1
+.puce1, .puce2
 {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	
-	
+	display: flex;
+	justify-content: space-around;
 }
 
-.puce2
+.puce11, .puce21
 {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-auto-rows: minimax(25px, auto); 
+	width: 300px
 }
 
 .expp1, .expp2, .expp3
 {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-auto-rows: minimax(25px, auto);
+	display: flex;
+	justify-content: space-around;
 }
 
+.expp11, .expp21, .expp31
+{
+	width: 300px
+}
 
 
 #end/*ok*/
