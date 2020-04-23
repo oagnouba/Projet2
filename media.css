@@ -1,5 +1,9 @@
 @media all and (max-width: 1280px) 
 {
+	.page
+	{
+		width: 100%;
+	}
 	section
 		{
 			flex-direction: column-reverse;
@@ -7,13 +11,11 @@
 
 	#droite/*ok*/
     	{
+    		width: 100%;
     		text-align: justify-all;
     	}
 
-    h1 #trait_dessous
-		{
-			width: 50px;
-		}
+  
 
 	.puce1, .puce2, .expp1, .expp2, .expp3, #end
 		{
@@ -34,12 +36,12 @@
 
     #gauche
     	{
-    		width: 300px;
+    		width: 100%;
     	}
 
-    #photo/*ok*/
+    #photo/*en cours*/
 		{	
-			left: 90px; 
+			left: 40%; 
 			border-radius:50%; /*IE*/
 		}
 
