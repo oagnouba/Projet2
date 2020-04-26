@@ -60,17 +60,11 @@ section
 	flex-wrap: wrap;
 }
 
-#contact/*en cours*/ 
+.contact
 {
-	margin-top: 1px;
 	padding: 20px;
-	height: 10px;
 }
 
-#contact p
-{
-	padding-left: 20px;
-}
 
 .apropo
 {
