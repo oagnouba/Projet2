@@ -22,7 +22,6 @@ body
 
 section
 {
-	margin: auto;
 	display: flex;
 	flex-direction: row;
 	padding: 1em;
@@ -86,7 +85,7 @@ section
 	flex-wrap: nowrap;
 	padding-left: 5px;		
 	padding-right: 5px;		
-	height: 2%;				
+	height:  50px;			
 }
 
 #loisir .fas
