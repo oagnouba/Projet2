@@ -1,19 +1,22 @@
 @media all and (max-width: 1280px) 
 {
-	.page
-	{
-		width: 100%;
-	}
 	section
 		{
+			width: 100%;
 			flex-direction: column-reverse;
 		}
 
 	#droite/*ok*/
     	{
-    		width: 100%;
     		text-align: justify-all;
     	}
+
+    .trait_dessous
+		{
+			border-top: 2px solid #43A047;
+			padding: 20px;
+			width: 100%;
+		}
 
 	.puce1, .puce2, .expp1, .expp2, .expp3, #end
 		{
@@ -34,25 +37,39 @@
 
     #gauche
     	{
-    		width: 100%;
+    		width: 75%;
+    		margin-left: auto;
+    		margin-right: auto;
+    		flex-direction: center;
     	}
 
-    #photo/*en cours*/
+    #photo
 		{	
 			left: 40%; 
-			border-radius:50%; /*IE*/
+			border-radius: 50%; /*IE*/
+			top: 10px;
+			overflow:hidden; /*gérer dépassement d'un élément dans un bloc*/
+    		-webkit-border-radius:50px;/*safari*/
+    		-moz-border-radius:50px; /*FF*/
+    		border-radius:50%; /*IE*/
+    		width:100px;
+    		height: 100px;
+    		margin-bottom: 35px;
+    		margin-top: 20px;
+		}
+
+	.contact
+		{
+			padding: 20px;
+			height: 250px
 		}
 
 	.apropo
 		{
-			height: 100%
+			height: 500px;
 		}
 
-	#loisir
-		{
-			padding-bottom: 2px;
-			height: 50%;
-		}
+	
 } 
 
 
