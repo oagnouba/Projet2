@@ -6,9 +6,11 @@
 			flex-direction: column-reverse;
 		}
 
-	#droite/*ok*/
+	#droite
     	{
     		text-align: justify-all;
+    		margin-left: auto;
+    		margin-right: auto;
     	}
 
     .trait_dessous
@@ -68,8 +70,6 @@
 		{
 			height: 500px;
 		}
-
-	
 } 
 
 
