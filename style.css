@@ -170,6 +170,11 @@ header p
 	width: 300px;
 }
 
+aside h4
+{
+	margin-top: 0px;
+}
+
 #end
 {
 	display: flex;
