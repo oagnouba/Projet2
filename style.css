@@ -10,7 +10,6 @@ html
 
 section 
 {
-	overflow-x: hidden;
 	width: 210mm;
 	size: a4;
 	margin: auto;
@@ -70,7 +69,7 @@ section
 }
 
 
-#loisir/*en cours*/
+#loisir
 {
 	display: flex;
 	justify-content: space-around;
@@ -92,18 +91,10 @@ section
 	color: #212121;
 }
 
-#droite
+header
 {
-	width: 70%;
-	height: 100%
+	padding-left: 20px;
 }
-
-
-header 
-{
-	padding: 20px;
-}
-
 
 .dev
 {
@@ -116,7 +107,7 @@ h3
 {
 	font-size: 25px;
 	text-transform: uppercase;
-	line-height: 1%;
+	margin-bottom: 0;	
 }
 
 .up
@@ -129,6 +120,8 @@ h3
 {
 	font-size: 15px;
 	padding: 20px;
+	margin-top: 0;
+	padding-top: 0;	
 }
 
 .nat
@@ -150,7 +143,12 @@ h3
 	padding-left: 2px;
 }
 
-header h4 p
+#head
+{
+	word-spacing: -15px;
+}
+
+header p
 {
 	text-align: justify;
 }
@@ -161,28 +159,16 @@ header h4 p
 	padding: 20px;
 }
 
-.puce1, .puce2
+.puce1, .puce2, .expp1, .expp2, .expp3
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around;	
 }
 
-.puce11, .puce21
+.puce11, .puce21, .expp11, .expp21, .expp31
 {
 	width: 300px;
 }
-
-.expp1, .expp2, .expp3
-{
-	display: flex;
-	justify-content: space-around;
-}
-
-.expp11, .expp21, .expp31
-{
-	width: 300px;
-}
-
 
 #end
 {
