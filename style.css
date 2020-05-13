@@ -28,7 +28,7 @@ section
 {
 	position: relative;
 	top: 10px;
-	left: 30%;
+	left: calc(50% - 50px);
     overflow:hidden; /*gérer dépassement d'un élément dans un bloc*/
     -webkit-border-radius:50px;/*safari*/
     -moz-border-radius:50px; /*FF*/
@@ -64,7 +64,6 @@ section
 .apropo p
 {
 	padding: 20px;
-	height: 10px;
 	text-align: justify;
 }
 
@@ -168,6 +167,7 @@ header p
 .puce11, .puce21, .expp11, .expp21, .expp31
 {
 	width: 300px;
+	padding-left: 10px;
 }
 
 aside h4

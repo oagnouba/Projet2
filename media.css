@@ -3,16 +3,18 @@
 {
 	section
 		{
-			width: 320px;
-				flex-direction: column;
-				size: 12px;
+			width: auto;
+			flex-direction: column;
+			size: 12px;
 		}
 
 
 	#droite
     	{
+    		width: 75%;
     		text-align: justify;
-       		max-width: 320px;
+ 			margin-left: auto;
+ 			margin-right: auto;
     	}
 
 	.trait_dessous
@@ -24,7 +26,7 @@
 
 	header p
 		{
-			width: 75%
+			width: auto;
 		}
 
 	ul
@@ -39,6 +41,11 @@
 			flex-direction: column;
 			margin: auto;
 		}
+
+	.puce11, .puce21, .expp11, .expp21, .expp31
+{
+	width: auto;
+}
 
 	h4
 		{
@@ -82,7 +89,7 @@
 
     #photo
 		{	
-			left: 30%; 
+			left: 40%; 
 			border-radius: 50%; /*IE*/
 			top: 10px;
 			overflow:hidden; /*gérer dépassement d'un élément dans un bloc*/
@@ -103,7 +110,7 @@
 
 	.apropo
 		{
-			height: 500px;
+			height: auto;
 		}
 } 
 
